@@ -98,8 +98,6 @@ function displayToDoWithTemplate(){
   for (let i = 0; i < toDoList.length; i++) {
     const todo = toDoList[i];
 
-
-
     const div = document.createElement('div');
     const todoTemplate = template.replace('#TODONAME', todo.name)
                                  .replace('#CREATIONDATE', todo.creationDate.toISOString())
