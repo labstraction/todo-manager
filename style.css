@@ -1,4 +1,4 @@
-.todo-div{
+.todo-container{
   border-style: solid;
   margin: 4px;
   border-width: 1px;
@@ -11,6 +11,7 @@
 .date-container{
   display: flex;
   justify-content: space-between;
+  margin: 4px;
 }
 
 .first-container{
@@ -18,7 +19,28 @@
   justify-content: space-between;
 }
 
-.nt-container{
+.name-and-tag-container{
   display: flex;
   flex-direction: column;
+}
+
+.tag{
+  background-color: yellow;
+  padding: 4px;
+  margin: 4px;
+  border-radius: 8px;
+}
+
+.todo-name{
+  font-weight: bold;
+  margin: 4px;
+}
+
+.done-button{
+  width: 50px;
+  height: 50px;
+  border-radius: 25px;
+  border-style: none;
+  background-color: green;
+  color: white;
 }
